@@ -15,6 +15,7 @@
 		0D0F056F251E3F020009A497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0F056D251E3F020009A497 /* LaunchScreen.storyboard */; };
 		0D0F057A251E3F030009A497 /* Voice2TextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F0579251E3F030009A497 /* Voice2TextTests.swift */; };
 		0D0F0585251E3F030009A497 /* Voice2TextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F0584251E3F030009A497 /* Voice2TextUITests.swift */; };
+		0DDC247225259FCA008BEF6E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC247125259FCA008BEF6E /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0D0F0580251E3F030009A497 /* Voice2TextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Voice2TextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0F0584251E3F030009A497 /* Voice2TextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice2TextUITests.swift; sourceTree = "<group>"; };
 		0D0F0586251E3F030009A497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDC247125259FCA008BEF6E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		0D0F0561251E3EFB0009A497 /* Voice2Text */ = {
 			isa = PBXGroup;
 			children = (
+				0DDC247025259FB4008BEF6E /* Controller */,
+				0DDC246F25259FAD008BEF6E /* View */,
 				0D0F0562251E3EFB0009A497 /* AppDelegate.swift */,
 				0D0F0564251E3EFB0009A497 /* SceneDelegate.swift */,
-				0D0F0566251E3EFB0009A497 /* ViewController.swift */,
 				0D0F0568251E3EFB0009A497 /* Main.storyboard */,
 				0D0F056B251E3F020009A497 /* Assets.xcassets */,
 				0D0F056D251E3F020009A497 /* LaunchScreen.storyboard */,
@@ -126,6 +129,22 @@
 				0D0F0586251E3F030009A497 /* Info.plist */,
 			);
 			path = Voice2TextUITests;
+			sourceTree = "<group>";
+		};
+		0DDC246F25259FAD008BEF6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC247125259FCA008BEF6E /* View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0DDC247025259FB4008BEF6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D0F0566251E3EFB0009A497 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDC247225259FCA008BEF6E /* View.swift in Sources */,
 				0D0F0567251E3EFB0009A497 /* ViewController.swift in Sources */,
 				0D0F0563251E3EFB0009A497 /* AppDelegate.swift in Sources */,
 				0D0F0565251E3EFB0009A497 /* SceneDelegate.swift in Sources */,
